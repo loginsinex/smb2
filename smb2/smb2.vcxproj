@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7871CAFA-BFC0-46F7-B69D-B4469074C119}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>smb2</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>precomp.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>.\h;.\</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;comctl32.lib;dwmapi.lib;uxtheme.lib;Msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>.\h;.\</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;comctl32.lib;dwmapi.lib;uxtheme.lib;msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="h\GUI\Dialogs\Advanced\cbgsetdlg.h" />
+    <ClInclude Include="h\GUI\Dialogs\Advanced\cbgtiles.h" />
+    <ClInclude Include="h\GUI\Dialogs\Advanced\cmiscdatadlg.h" />
+    <ClInclude Include="h\GUI\Dialogs\Advanced\cobjtiles.h" />
+    <ClInclude Include="h\GUI\Dialogs\Advanced\cpalette.h" />
+    <ClInclude Include="h\GUI\Dialogs\Advanced\cwarpsdlg.h" />
+    <ClInclude Include="h\GUI\Dialogs\Advanced\cwrlditrdlg.h" />
+    <ClInclude Include="h\GUI\Dialogs\cleveldlg.h" />
+    <ClInclude Include="h\GUI\Dialogs\clvldraw.h" />
+    <ClInclude Include="h\GUI\Dialogs\clvlobjdlg.h" />
+    <ClInclude Include="h\GUI\Dialogs\clvloptionsdlg.h" />
+    <ClInclude Include="h\GUI\Dialogs\cmainwnd.h" />
+    <ClInclude Include="h\GUI\Dialogs\Editor\cchglayerdlg.h" />
+    <ClInclude Include="h\GUI\Dialogs\Editor\ceditordlgs.h" />
+    <ClInclude Include="h\GUI\Dialogs\Editor\clevelinfodlg.h" />
+    <ClInclude Include="h\GUI\Dialogs\Editor\cnewitemdlg.h" />
+    <ClInclude Include="h\GUI\Dialogs\Worlds\cgameworlds.h" />
+    <ClInclude Include="h\GUI\Wrapper\cdialog.h" />
+    <ClInclude Include="h\GUI\Wrapper\cfont.h" />
+    <ClInclude Include="h\GUI\Wrapper\Controls\bitmap.h" />
+    <ClInclude Include="h\gui\wrapper\controls\cbufview.h" />
+    <ClInclude Include="h\GUI\Wrapper\Controls\ccombobox.h" />
+    <ClInclude Include="h\GUI\Wrapper\Controls\CControl.h" />
+    <ClInclude Include="h\GUI\Wrapper\Controls\cdwmapi.h" />
+    <ClInclude Include="h\GUI\Wrapper\Controls\cglasswnd.h" />
+    <ClInclude Include="h\GUI\Wrapper\Controls\clistview.h" />
+    <ClInclude Include="h\GUI\Wrapper\Controls\crebar.h" />
+    <ClInclude Include="h\GUI\Wrapper\Controls\ctabcontrol.h" />
+    <ClInclude Include="h\GUI\Wrapper\Controls\ctoolbar.h" />
+    <ClInclude Include="h\GUI\Wrapper\Controls\ctrackbar.h" />
+    <ClInclude Include="h\GUI\Wrapper\Controls\ctreeview.h" />
+    <ClInclude Include="h\GUI\Wrapper\Controls\listview.h" />
+    <ClInclude Include="h\GUI\Wrapper\cpropsheet.h" />
+    <ClInclude Include="h\GUI\Wrapper\csizeanchor.h" />
+    <ClInclude Include="h\NES\cneseditor.h" />
+    <ClInclude Include="h\NES\cnesenemydata.h" />
+    <ClInclude Include="h\NES\cnesitemslist.h" />
+    <ClInclude Include="h\NES\cnesfile.h" />
+    <ClInclude Include="h\NES\cnesleveldata.h" />
+    <ClInclude Include="h\NES\cnestiles.h" />
+    <ClInclude Include="h\NES\nesleveldef.h" />
+    <ClInclude Include="precomp.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cpp\GUI\Dialogs\Advanced\cbgsetdlg.cpp" />
+    <ClCompile Include="cpp\GUI\Dialogs\Advanced\cbgtiles.cpp" />
+    <ClCompile Include="cpp\GUI\Dialogs\Advanced\cmiscdatadlg.cpp" />
+    <ClCompile Include="cpp\GUI\Dialogs\Advanced\cobjtiles.cpp" />
+    <ClCompile Include="cpp\GUI\Dialogs\Advanced\cpalette.cpp" />
+    <ClCompile Include="cpp\GUI\Dialogs\Advanced\cwarpsdlg.cpp" />
+    <ClCompile Include="cpp\GUI\Dialogs\Advanced\cwrlditrdlg.cpp" />
+    <ClCompile Include="cpp\GUI\Dialogs\clvlobjdlg.cpp" />
+    <ClCompile Include="cpp\GUI\Dialogs\clvloptionsdlg.cpp" />
+    <ClCompile Include="cpp\GUI\Dialogs\cmainwnd.cpp" />
+    <ClCompile Include="cpp\GUI\Dialogs\Editor\cchglayerdlg.cpp" />
+    <ClCompile Include="cpp\GUI\Dialogs\Editor\ceditordlgs.cpp" />
+    <ClCompile Include="cpp\GUI\Dialogs\Editor\clevelinfodlg.cpp" />
+    <ClCompile Include="cpp\GUI\Dialogs\Editor\cnewitemdlg.cpp" />
+    <ClCompile Include="cpp\GUI\Dialogs\Level Draw\clvldraw_canvas.cpp" />
+    <ClCompile Include="cpp\GUI\Dialogs\Level Draw\clvldraw_handler.cpp" />
+    <ClCompile Include="cpp\GUI\Dialogs\Level Draw\clvldraw_render.cpp" />
+    <ClCompile Include="cpp\GUI\Dialogs\Level Draw\clvldraw_scroll.cpp" />
+    <ClCompile Include="cpp\GUI\Dialogs\Level Draw\clvldraw_worker.cpp" />
+    <ClCompile Include="cpp\GUI\Dialogs\LevelDlg\cleveldlg.cpp" />
+    <ClCompile Include="cpp\GUI\Dialogs\LevelDlg\cleveldlg_handler.cpp" />
+    <ClCompile Include="cpp\GUI\Dialogs\Worlds\cgameworlds.cpp" />
+    <ClCompile Include="cpp\GUI\Wrapper\cdialog.cpp" />
+    <ClCompile Include="cpp\GUI\Wrapper\cfont.cpp" />
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\bitmap.cpp" />
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\cbufview.cpp" />
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\ccombobox.cpp" />
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\ccontrol.cpp" />
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\cdwmapi.cpp" />
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\cglasswnd.cpp" />
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\clistview.cpp" />
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\ctabcontrol.cpp" />
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\ctoolbar.cpp" />
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\ctrackbar.cpp" />
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\ctreeview.cpp" />
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\listview.cpp" />
+    <ClCompile Include="cpp\GUI\Wrapper\cpropsheet.cpp" />
+    <ClCompile Include="cpp\GUI\Wrapper\csizeanchor.cpp" />
+    <ClCompile Include="cpp\NES\cneseditor.cpp" />
+    <ClCompile Include="cpp\NES\cnesenemydata.cpp" />
+    <ClCompile Include="cpp\NES\cnesfile.cpp" />
+    <ClCompile Include="cpp\NES\cnesleveldata.cpp" />
+    <ClCompile Include="cpp\NES\cnestiles.cpp" />
+    <ClCompile Include="cpp\NES\Level Editor\cneseditor_editor.cpp" />
+    <ClCompile Include="cpp\NES\Level Editor\cneseditor_helper.cpp" />
+    <ClCompile Include="cpp\NES\Level Editor\cneseditor_items.cpp" />
+    <ClCompile Include="cpp\NES\Level Editor\cneseditor_loader.cpp" />
+    <ClCompile Include="cpp\NES\Level Editor\cneseditor_objmaker.cpp" />
+    <ClCompile Include="cpp\NES\Level Editor\cneseditor_tiles.cpp" />
+    <ClCompile Include="cpp\NES\nesleveldef.cpp" />
+    <ClCompile Include="precomp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="smb2.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

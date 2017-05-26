@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы\GUI">
+      <UniqueIdentifier>{a0eec3e7-4fd6-4b3d-abef-28de0e338218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\GUI\Wrapper">
+      <UniqueIdentifier>{7a733ab5-b128-4970-8674-91d11f6296f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\GUI\Wrapper\Controls">
+      <UniqueIdentifier>{66923528-3b04-42dd-9e40-0fc79d6bd381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\GUI\Wrapper\Controls\Menu">
+      <UniqueIdentifier>{89bb2d6e-c0db-43a7-b7f6-d70aa1ae1074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GUI">
+      <UniqueIdentifier>{01648bdd-4bfa-4117-a8d8-2f74d5f7334c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GUI\Wrapper">
+      <UniqueIdentifier>{a18084e5-b19f-4eb8-bff3-de0fe121cfcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GUI\Wrapper\Controls">
+      <UniqueIdentifier>{22da4718-b156-4ba4-8c6c-434ae1018402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GUI\Wrapper\Controls\Menu">
+      <UniqueIdentifier>{403a337d-333b-4625-9d00-9c99657e7b84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\GUI\Dialogs">
+      <UniqueIdentifier>{421c54d5-2da2-4134-8aef-388ac4aef061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GUI\Dialogs">
+      <UniqueIdentifier>{7a270989-51da-45b9-bc2f-24aa4e47b12e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\NES">
+      <UniqueIdentifier>{16d892c6-1e5d-4b9a-b78b-49d4f196f6fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\NES">
+      <UniqueIdentifier>{1158de79-88f7-4bd9-8f12-15b16a3388be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GUI\Dialogs\Level Draw">
+      <UniqueIdentifier>{90f8f173-74bd-4f07-937d-2232eecb76ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\NES\Level Editor">
+      <UniqueIdentifier>{9d7e332a-1f7b-423d-a30a-5ee555c723ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GUI\Dialogs\Editor">
+      <UniqueIdentifier>{5a3be612-548c-40b4-9a10-868169ed7178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\GUI\Dialogs\Editor">
+      <UniqueIdentifier>{2bad0134-94d3-4d82-a9bf-09eaaff36377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\GUI\Dialogs\Advanced">
+      <UniqueIdentifier>{6f45ae81-17e8-4f27-ba04-52261681f43b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GUI\Dialogs\Advanced">
+      <UniqueIdentifier>{54504552-e3ab-44fc-b25a-1de2a35fa392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\GUI\Wrapper\Controls\WinPane">
+      <UniqueIdentifier>{a6769ad8-9499-4332-8bbf-1355c41a4f3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GUI\Wrapper\Controls\WinPane">
+      <UniqueIdentifier>{0990920b-d93a-4709-97ea-a8969cd9829c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GUI\Dialogs\LevelDlg">
+      <UniqueIdentifier>{dd16cad1-c62c-4d9b-bc7c-fd9f2fd907c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GUI\Dialogs\Worlds">
+      <UniqueIdentifier>{e04f6bd4-681e-4e84-955f-e13fcaaf394c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\GUI\Dialogs\Worlds">
+      <UniqueIdentifier>{01250347-2aea-4caf-90b3-f7d1778c7e98}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="precomp.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\Controls\bitmap.h">
+      <Filter>Заголовочные файлы\GUI\Wrapper\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\Controls\CControl.h">
+      <Filter>Заголовочные файлы\GUI\Wrapper\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\Controls\cdwmapi.h">
+      <Filter>Заголовочные файлы\GUI\Wrapper\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\Controls\cglasswnd.h">
+      <Filter>Заголовочные файлы\GUI\Wrapper\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\Controls\clistview.h">
+      <Filter>Заголовочные файлы\GUI\Wrapper\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\Controls\crebar.h">
+      <Filter>Заголовочные файлы\GUI\Wrapper\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\Controls\listview.h">
+      <Filter>Заголовочные файлы\GUI\Wrapper\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\cdialog.h">
+      <Filter>Заголовочные файлы\GUI\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\cfont.h">
+      <Filter>Заголовочные файлы\GUI\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\cpropsheet.h">
+      <Filter>Заголовочные файлы\GUI\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\csizeanchor.h">
+      <Filter>Заголовочные файлы\GUI\Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\cmainwnd.h">
+      <Filter>Заголовочные файлы\GUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\cnesfile.h">
+      <Filter>Заголовочные файлы\NES</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\Controls\ctreeview.h">
+      <Filter>Заголовочные файлы\GUI\Wrapper\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\Controls\ctabcontrol.h">
+      <Filter>Заголовочные файлы\GUI\Wrapper\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\cleveldlg.h">
+      <Filter>Заголовочные файлы\GUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\clvloptionsdlg.h">
+      <Filter>Заголовочные файлы\GUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\Controls\ccombobox.h">
+      <Filter>Заголовочные файлы\GUI\Wrapper\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\Controls\ctrackbar.h">
+      <Filter>Заголовочные файлы\GUI\Wrapper\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\clvldraw.h">
+      <Filter>Заголовочные файлы\GUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\cnesleveldata.h">
+      <Filter>Заголовочные файлы\NES</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\cnesitemslist.h">
+      <Filter>Заголовочные файлы\NES</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\cnesenemydata.h">
+      <Filter>Заголовочные файлы\NES</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\cnestiles.h">
+      <Filter>Заголовочные файлы\NES</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\nesleveldef.h">
+      <Filter>Заголовочные файлы\NES</Filter>
+    </ClInclude>
+    <ClInclude Include="h\NES\cneseditor.h">
+      <Filter>Заголовочные файлы\NES</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\clvlobjdlg.h">
+      <Filter>Заголовочные файлы\GUI\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\Editor\cnewitemdlg.h">
+      <Filter>Заголовочные файлы\GUI\Dialogs\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\Editor\ceditordlgs.h">
+      <Filter>Заголовочные файлы\GUI\Dialogs\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\Editor\clevelinfodlg.h">
+      <Filter>Заголовочные файлы\GUI\Dialogs\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\Editor\cchglayerdlg.h">
+      <Filter>Заголовочные файлы\GUI\Dialogs\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\Advanced\cbgtiles.h">
+      <Filter>Заголовочные файлы\GUI\Dialogs\Advanced</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\Advanced\cwrlditrdlg.h">
+      <Filter>Заголовочные файлы\GUI\Dialogs\Advanced</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\Advanced\cobjtiles.h">
+      <Filter>Заголовочные файлы\GUI\Dialogs\Advanced</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\Advanced\cbgsetdlg.h">
+      <Filter>Заголовочные файлы\GUI\Dialogs\Advanced</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\Advanced\cpalette.h">
+      <Filter>Заголовочные файлы\GUI\Dialogs\Advanced</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Wrapper\Controls\ctoolbar.h">
+      <Filter>Заголовочные файлы\GUI\Wrapper\Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\Advanced\cwarpsdlg.h">
+      <Filter>Заголовочные файлы\GUI\Dialogs\Advanced</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\Advanced\cmiscdatadlg.h">
+      <Filter>Заголовочные файлы\GUI\Dialogs\Advanced</Filter>
+    </ClInclude>
+    <ClInclude Include="h\GUI\Dialogs\Worlds\cgameworlds.h">
+      <Filter>Заголовочные файлы\GUI\Dialogs\Worlds</Filter>
+    </ClInclude>
+    <ClInclude Include="h\gui\wrapper\controls\cbufview.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="precomp.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\bitmap.cpp">
+      <Filter>Файлы исходного кода\GUI\Wrapper\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\ccontrol.cpp">
+      <Filter>Файлы исходного кода\GUI\Wrapper\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\cdwmapi.cpp">
+      <Filter>Файлы исходного кода\GUI\Wrapper\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\cglasswnd.cpp">
+      <Filter>Файлы исходного кода\GUI\Wrapper\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\clistview.cpp">
+      <Filter>Файлы исходного кода\GUI\Wrapper\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\listview.cpp">
+      <Filter>Файлы исходного кода\GUI\Wrapper\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\cdialog.cpp">
+      <Filter>Файлы исходного кода\GUI\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\cfont.cpp">
+      <Filter>Файлы исходного кода\GUI\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\cpropsheet.cpp">
+      <Filter>Файлы исходного кода\GUI\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\csizeanchor.cpp">
+      <Filter>Файлы исходного кода\GUI\Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\cmainwnd.cpp">
+      <Filter>Файлы исходного кода\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\cnesfile.cpp">
+      <Filter>Файлы исходного кода\NES</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\ctreeview.cpp">
+      <Filter>Файлы исходного кода\GUI\Wrapper\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\ctabcontrol.cpp">
+      <Filter>Файлы исходного кода\GUI\Wrapper\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\clvloptionsdlg.cpp">
+      <Filter>Файлы исходного кода\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\ccombobox.cpp">
+      <Filter>Файлы исходного кода\GUI\Wrapper\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\ctrackbar.cpp">
+      <Filter>Файлы исходного кода\GUI\Wrapper\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\cnesleveldata.cpp">
+      <Filter>Файлы исходного кода\NES</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\cnesenemydata.cpp">
+      <Filter>Файлы исходного кода\NES</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\cnestiles.cpp">
+      <Filter>Файлы исходного кода\NES</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\nesleveldef.cpp">
+      <Filter>Файлы исходного кода\NES</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\cneseditor.cpp">
+      <Filter>Файлы исходного кода\NES</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\clvlobjdlg.cpp">
+      <Filter>Файлы исходного кода\GUI\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\Level Draw\clvldraw_canvas.cpp">
+      <Filter>Файлы исходного кода\GUI\Dialogs\Level Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\Level Draw\clvldraw_worker.cpp">
+      <Filter>Файлы исходного кода\GUI\Dialogs\Level Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\Level Draw\clvldraw_render.cpp">
+      <Filter>Файлы исходного кода\GUI\Dialogs\Level Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\Level Draw\clvldraw_scroll.cpp">
+      <Filter>Файлы исходного кода\GUI\Dialogs\Level Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\Level Draw\clvldraw_handler.cpp">
+      <Filter>Файлы исходного кода\GUI\Dialogs\Level Draw</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\Level Editor\cneseditor_objmaker.cpp">
+      <Filter>Файлы исходного кода\NES\Level Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\Level Editor\cneseditor_helper.cpp">
+      <Filter>Файлы исходного кода\NES\Level Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\Level Editor\cneseditor_loader.cpp">
+      <Filter>Файлы исходного кода\NES\Level Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\Level Editor\cneseditor_items.cpp">
+      <Filter>Файлы исходного кода\NES\Level Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\Level Editor\cneseditor_editor.cpp">
+      <Filter>Файлы исходного кода\NES\Level Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\Editor\cnewitemdlg.cpp">
+      <Filter>Файлы исходного кода\GUI\Dialogs\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\Editor\ceditordlgs.cpp">
+      <Filter>Файлы исходного кода\GUI\Dialogs\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\Editor\clevelinfodlg.cpp">
+      <Filter>Файлы исходного кода\GUI\Dialogs\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\Editor\cchglayerdlg.cpp">
+      <Filter>Файлы исходного кода\GUI\Dialogs\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\Advanced\cbgtiles.cpp">
+      <Filter>Файлы исходного кода\GUI\Dialogs\Advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\Advanced\cwrlditrdlg.cpp">
+      <Filter>Файлы исходного кода\GUI\Dialogs\Advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\Advanced\cobjtiles.cpp">
+      <Filter>Файлы исходного кода\GUI\Dialogs\Advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\Advanced\cbgsetdlg.cpp">
+      <Filter>Файлы исходного кода\GUI\Dialogs\Advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\Advanced\cpalette.cpp">
+      <Filter>Файлы исходного кода\GUI\Dialogs\Advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\ctoolbar.cpp">
+      <Filter>Файлы исходного кода\GUI\Wrapper\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\Advanced\cwarpsdlg.cpp">
+      <Filter>Файлы исходного кода\GUI\Dialogs\Advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\Advanced\cmiscdatadlg.cpp">
+      <Filter>Файлы исходного кода\GUI\Dialogs\Advanced</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Wrapper\Controls\cbufview.cpp">
+      <Filter>Файлы исходного кода\GUI\Wrapper\Controls</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\LevelDlg\cleveldlg.cpp">
+      <Filter>Файлы исходного кода\GUI\Dialogs\LevelDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\LevelDlg\cleveldlg_handler.cpp">
+      <Filter>Файлы исходного кода\GUI\Dialogs\LevelDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\NES\Level Editor\cneseditor_tiles.cpp">
+      <Filter>Файлы исходного кода\NES\Level Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\GUI\Dialogs\Worlds\cgameworlds.cpp">
+      <Filter>Файлы исходного кода\GUI\Dialogs\Worlds</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="smb2.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
